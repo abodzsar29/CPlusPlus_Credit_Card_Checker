@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Coding\C++\Credit Card Checker\Credit Card Checker\Source.cpp(15,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Coding\C++\Credit Card Checker\Credit Card Checker\Source.cpp(20,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Credit Card Checker.vcxproj -> D:\Coding\C++\Credit Card Checker\x64\Debug\Credit Card Checker.exe
