@@ -12,9 +12,9 @@ using namespace std;
 void logic(string initialStr)
 {
 	string strContainer = initialStr;
-	int strLength = strContainer.length();
-	try {
-		if (strLength < 13 || strLength > 16) {
+	int strLength = strContainer.length(); // Assigning the number of entered digits to a variable
+	try { // Adding a try block to allow the testing of the length of the entered value
+		if (strLength < 13 || strLength > 16) { // Checking that the number of entered digits is between 13 and 16
 			throw strLength;
 		}
 		int i = initialStr.length() - 2;
